@@ -23,7 +23,14 @@ public class Lion extends Animal {
         System.out.println("Does it have new trim?:" + newTrim);
     }
 
+    public void run(){
+        System.out.println("Lion runs");
+    }
+
     public boolean getNewTrim() {
         return newTrim;
+    }
+    public void setNewTrim(boolean newTrim) {
+        this.newTrim = newTrim;
     }
 }

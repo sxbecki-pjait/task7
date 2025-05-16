@@ -21,4 +21,16 @@ public class Snake extends Animal{
         System.out.println("Age:" + age);
         System.out.println("Length in cm: " + length);
     }
+
+    public void shedding(){
+        System.out.println("Snake shedding");
+    }
+
+    public int getLength() {
+        return length;
+    }
+    public void setLength(int length) {
+        this.length = length;
+    }
+
 }

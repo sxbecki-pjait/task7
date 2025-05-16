@@ -20,4 +20,15 @@ public class Penguin extends Animal{
         System.out.println("Age:" + age);
         System.out.println("Colors: " + colors);
     }
+
+    public void fly(){
+        System.out.println("Penguin can't fly, so sad");
+    }
+
+    public String getColors() {
+        return colors;
+    }
+    public void setColors(String colors) {
+        this.colors = colors;
+    }
 }
