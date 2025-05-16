@@ -1,4 +1,4 @@
-public class Snake extends Animal{
+public class Snake extends Reptile{
     private int length;
     public Snake(String name, int age, int length) {
         super(name, age);

@@ -1,4 +1,4 @@
-public class Penguin extends Animal{
+public class Penguin extends Bird{
     private String colors;
     public Penguin(String name, int age, String colors){
         super(name, age);
@@ -21,6 +21,7 @@ public class Penguin extends Animal{
         System.out.println("Colors: " + colors);
     }
 
+    @Override
     public void fly(){
         System.out.println("Penguin can't fly, so sad");
     }

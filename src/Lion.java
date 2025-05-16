@@ -1,4 +1,4 @@
-public class Lion extends Animal {
+public class Lion extends Mammal{
     private boolean newTrim;
 
     public Lion(String name, int age, boolean newTrim) {
