@@ -20,10 +20,10 @@ public class ZooManagement {
                 ((Bird) animal).fly();
             }
             if(animal instanceof Mammal){
-                ((Mammal) animal).move();
+                ((Mammal) animal).mammalMoves();
             }
             if(animal instanceof Reptile){
-                ((Reptile) animal).move();
+                ((Reptile) animal).shedding();
             }
             System.out.println();
         }
